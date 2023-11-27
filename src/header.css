@@ -3,6 +3,7 @@
 
 .navbar {
   background-color: #eae6f5 !important;
+  background-color: white !important;
   height: 80px;
   z-index: 9999;
   width: 100%;
