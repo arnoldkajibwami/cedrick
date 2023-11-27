@@ -3,10 +3,12 @@ import Image2 from "./images/8.png"
 import Image3 from "./images/17.png"
 import Image4 from "./images/plug.png"
 import "./about.css"
+import WhatsappPop from "./WhatsappPop";
 
 export default function About() {
     return (
         <>
+            <WhatsappPop/>
             <section className="about_section layout_padding ">
                 <div className="container">
                     <div className="row">

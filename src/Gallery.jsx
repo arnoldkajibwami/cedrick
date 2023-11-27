@@ -1,9 +1,11 @@
 import React from "react";
 import "./galery.css"
+import WhatsappPop from "./WhatsappPop";
 
 export default function Gallery() {
     return (
         <>
+            <WhatsappPop/>
             <section className="gallery_Section ">
                 <div className="box">
                     <div>

@@ -16,11 +16,11 @@ export default function ServiceContainer() {
         <>
             <section className="service_section">
                 <div className="container">
-                    <div className="heading_container">
+                    <div className="heading_container d-flex">
                         <h2>
                             Our Services
                         </h2>
-                        <img src={Image1} alt="" />
+                        <img style={{height:"25px", width:"25px", marginLeft:"10px",marginTop:"5px"}} src={Image1} alt="" />
                     </div>
 
                     <div className="service_container">
