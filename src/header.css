@@ -240,8 +240,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 2em;
-  height: 1.5px;
+  width: 1.3em;
+  height: 2px;
   background-color: rgb(255, 255, 255);
   transform: translateX(-50%) rotate(45deg);
 }
@@ -251,8 +251,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 2em;
-  height: 1.5px;
+  width: 1.3em;
+  height: 2px;
   background-color: #fff;
   transform: translateX(-50%) rotate(-45deg);
 }
