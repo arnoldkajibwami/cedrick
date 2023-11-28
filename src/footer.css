@@ -47,6 +47,10 @@
   margin-right: 5px;
 }
 
+.contact_link_box a{
+  text-decoration: none !important;
+}
+
 .footer_section .footer_contact .contact_link_box a:hover {
   color: #ffbe33;
 }
@@ -68,6 +72,13 @@
           justify-content: center;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.footer_social i{
+  font-size: 30px;
+}
+
+.footer_social i:hover{
+  color:#f0efef;
 }
 
 .footer_section .footer_social a {

@@ -1,5 +1,6 @@
 .about_section {
-  background-color: #f3f0f6;
+  /* background-color: #f3f0f6; */
+  background-color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 100px;
@@ -30,21 +31,22 @@
 .about_section .img_container .img-box.b1 {
   width: 70%;
   height: 55vh;
+  object-fit: cover !important;
 }
 
 .about_section .img_container .img-box.b2 {
   width: 50%;
   height: 40vh;
   margin-left: auto;
-  margin-top: -12%;
 }
-.b1 img{
-  object-fit: fill;
-  transform: translateY(-40px);
+.b1 img {
+  object-fit: cover !important;
+  object-position: cover !important;
 }
-.b2 img{
-  object-fit: fill;
-  transform: translateY(-40px);
+
+.b2 img {
+  object-fit: cover !important;
+  object-position: center !important;
 }
 
 .about_section .img_container .img-box img {
@@ -57,7 +59,7 @@
 
 .about_section .detail-box p {
   margin-top: 30px;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .about_section .detail-box a {

@@ -3,11 +3,11 @@ import Image1 from "./images/16.png"
 import Image2 from "./images/17.png"
 import Image3 from "./images/8.png"
 import Carousel from 'react-bootstrap/Carousel';
-import About from "./about";
 import ServiceContainer from "./ServiceContainer";
 import Contactcontent from "./Contactcontent";
 import ReactTyped from "react-typed";
 import WhatsappPop from "./WhatsappPop";
+import AboutContent from "./Aboutcontent";
 
 export default function Home() {
     return (
@@ -20,7 +20,7 @@ export default function Home() {
                             <div fadeIn className="detail_box ">
                                 <h1 >
                                     Welcome to{" "}<br/>
-                                    <ReactTyped strings={["B.E.E.M.P Asble"]} typeSpeed={50} loop />
+                                    <ReactTyped strings={["B.E.E.M.P Asbl"]} typeSpeed={50} loop />
                                 </h1>
                                 <p>
                                     It is a long established fact that a reader will be distracted by the readable content of
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
 
             <div classNameName="mt-5">
-                <About />
+                <AboutContent />
             </div>
 
             <div classNameName="mt-5">
