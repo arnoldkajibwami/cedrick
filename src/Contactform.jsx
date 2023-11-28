@@ -25,10 +25,10 @@ export const Contactform = () => {
             <div ref={form} onSubmit={sendEmail} className="contact-form">
                 <div className="row gy-4">
                     <div className="col-lg-12 form-group">
-                        <input type="text" name="from_name" className="form-control" id="name" placeholder='Your Name' />
+                        <input type="text" name="from_name" className="form-control" id="name" placeholder='Votre Nom' />
                     </div>
                     <div className="col-lg-12 form-group mb-4">
-                        <input type="email" name="from_email" className="form-control" id="email" placeholder="Your Email" />
+                        <input type="email" name="from_email" className="form-control" id="email" placeholder="Email" />
                     </div>
                 </div>
                 <div className="form-group">

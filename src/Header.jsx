@@ -1,7 +1,7 @@
 import { useState, Fragment } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import './header.css'
-import Brandlogo from "./images/9.png"
+import Brandlogo from "./images/logo1.png"
 
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
           <div className='container '>
             <div className=" Navcontainer">
               <div className="logo d-flex">
-                <img style={{ height: "30px", width: "30px", borderRadius: "259px", marginRight: "5px", background: "#f1f2f3" }} src={Brandlogo} alt='logo' />
+                <img style={{ height: "40px", width: "40px", borderRadius: "259px", marginRight: "5px", background: "transparent" }} src={Brandlogo} alt='logo' />
                 <Link to="/" style={{ textDecoration: "none", color: "#4b208c" }}><h4 style={{ color: "#4b208c", fontSize: "22px", fontWeight: "700", marginTop: "3px" }}>B.E.E.P.M. ASBL</h4></Link>
               </div>
               <div className="menu-icon" onClick={handleShowNavbar}>
@@ -45,15 +45,15 @@ const Header = () => {
                 </div>
                 <ul>
                   <li>
-                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/home">Accueil</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about">Apropos</NavLink>
                   </li>
                   <li>
                     <NavLink to="/service">Service</NavLink>
                   </li><li>
-                    <NavLink to="/gallery">Gallery</NavLink>
+                    <NavLink to="/gallery">Gallerie</NavLink>
                   </li>
                   <li>
                     <NavLink to="/contact">contact</NavLink>
