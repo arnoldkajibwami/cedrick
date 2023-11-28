@@ -1,7 +1,7 @@
 import React from "react";
 import "./galery.css"
 import WhatsappPop from "./WhatsappPop";
-import Items from "./items";
+// import Items from "./items";
 import Dataitems from "./Dataitems";
 
 export default function Gallery() {
