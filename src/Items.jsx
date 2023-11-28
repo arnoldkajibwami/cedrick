@@ -5,12 +5,12 @@ export default function Items(props) {
     return (
         <>
             <div>
-                <a href="">
+                <div className="galleryhover">
                     <div className="boxdetails">
                         <img src={props.image} alt='' />
                         <p className="figureLegnde">{props.legend}</p>
                     </div>
-                </a>
+                </div>
             </div>
 
         </>

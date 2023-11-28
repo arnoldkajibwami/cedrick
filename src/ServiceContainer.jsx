@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./service.css"
-import Image1 from "./images/plug.png"
 import Image2 from "./images/7.png"
 import Image3 from "./images/1.png"
 import Image4 from "./images/4.png"
@@ -26,7 +25,6 @@ export default function ServiceContainer() {
                         <h2 data-aos="flip-left">
                             Our Services
                         </h2>
-                        <img style={{ height: "25px", width: "25px", marginLeft: "10px", marginTop: "5px" }} src={Image1} alt="" />
                     </div>
 
                     <div className="service_container" data-aos="zoom-in">

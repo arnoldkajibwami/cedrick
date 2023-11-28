@@ -57,14 +57,15 @@
 }
 
 .service_section .service_container .box .detail-box h5 {
-  color: #2e0e5f;
-  font-weight: 600;
+  color: rgb(44, 43, 43);;
+  font-weight: 900;
   position: relative;
+
 }
 
 .service_section .service_container .box:hover,
 .service_section .service_container .box.active {
-  border-top: 15px solid #512a97;
+  border-top: 15px solid rgb(44, 43, 43);;
 }
 
 .service_section .btn-box {
@@ -80,7 +81,7 @@
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #4b208c;
+  background-color: rgb(44, 43, 43);;
   color: #ffffff;
   border-radius: 35px;
 }

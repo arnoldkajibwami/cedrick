@@ -38,7 +38,7 @@ export default function Home() {
                                 </a>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-6 offset-lg-1 " data-aos="zoom-in">
+                        {/* <div className="col-lg-5 col-md-6 offset-lg-1 " data-aos="zoom-in">
                             <div className="img_content">
                                 <div className="img_container">
                                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
@@ -63,7 +63,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section >

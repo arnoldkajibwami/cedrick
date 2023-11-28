@@ -31,7 +31,7 @@ const Header = () => {
             <div className=" Navcontainer">
               <div className="logo d-flex">
                 <img style={{ height: "40px", width: "40px", borderRadius: "259px", marginRight: "5px", background: "transparent" }} src={Brandlogo} alt='logo' />
-                <Link to="/" style={{ textDecoration: "none", color: "#4b208c" }}><h4 style={{ color: "#4b208c", fontSize: "22px", fontWeight: "700", marginTop: "3px" }}>B.E.E.P.M. ASBL</h4></Link>
+                <Link to="/" style={{ textDecoration: "none", color: "rgb(44, 43, 43);" }}><h4>B.E.E.P.M. ASBL</h4></Link>
               </div>
               <div className="menu-icon" onClick={handleShowNavbar}>
                 {/* <button className='btn btn-danger'>Back</button> */}
@@ -41,7 +41,13 @@ const Header = () => {
               </div>
               <div className={`mt-2 nav-elements  ${showNavbar && 'active'}`} checked>
                 <div className='menu-closed' onClick={handleShowNavbar}>
-                  <span>X</span>
+                  
+                  <button class="Buttonclose">
+                    <span class="X"></span>
+                    <span class="Y"></span>
+                    <div class="closebutton">Close</div>
+                  </button>
+
                 </div>
                 <ul>
                   <li>

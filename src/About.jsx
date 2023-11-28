@@ -7,6 +7,7 @@ export default function About() {
     return (
         <>
             <WhatsappPop/>
+            <div style={{height:"90px"}}></div>
             <AboutContent/>
             <AboutTeam/>
         </>
