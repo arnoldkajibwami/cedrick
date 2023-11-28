@@ -4,7 +4,7 @@ import Home from "./Home";
 import Service from "./Service";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
-import About from "./about";
+import About from "./About";
 import Contact from "./Contact";
 
 function App() {
