@@ -29,19 +29,12 @@ body {
   /* position: relative; */
   z-index: 2;
   color: #3b3a3a;
-  /* padding-bottom: 90px;  */
-  /* background-image: url(./images/bg4.jpg); */
-  /* background-image: url(./images/1.jpg); */
-  /* background-image: url(./images/4.jpg); */
-  background-image: url(./images/14.jpg);
-  /* background-image: url(./images/bg2.jpg);
-  background-image: url(./images/bg4.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
+  background-attachment: fixed;
   margin-bottom: 50px;
-  height: 70vh;
+  height: 80vh;
   width: auto;
 }
 
@@ -56,17 +49,19 @@ body {
 }
 
 .detail_box h1 {
-  margin-top: 75px;
+  margin-top: 30px;
   text-transform: uppercase;
   font-weight: bold;
   /* color: rgb(44, 43, 43); */
-  color: rgb(236, 236, 236);
+  /* color: rgb(236, 236, 236); */
+  color: white;
 }
 
 .slider_section .detail_box p {
   margin-top: 15px;
-  font-size: 15px;
-  color: rgb(255, 246, 246);
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
   /* color: rgb(44, 43, 43); */
 }
 
@@ -101,9 +96,6 @@ body {
   object-position: center;
 }
 
-@media screen {
-  
-}
 .slider_section .carousel-control-prev,
 .slider_section .carousel-control-next {
   top: initial;

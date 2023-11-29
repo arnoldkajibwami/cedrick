@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ServiceContainer from "./ServiceContainer";
 import Contactcontent from "./Contactcontent";
 import ReactTyped from "react-typed";
@@ -6,22 +6,35 @@ import WhatsappPop from "./WhatsappPop";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import AboutContent from "./Aboutcontent";
-
+import Image1 from "./images/14.jpg"
+import Image2 from "./images/4.jpg"
+import Image3 from "./images/1.jpg"
+// import Image5 from "./images/bg2.jpg"
 
 export default function Home() {
 
+    const [index, setIndex] =useState(0)
+    const images = [Image1,Image2,Image3]
+
     useEffect(() => {
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 2200 })
     }, [])
+
+    useEffect(()=>{
+        setTimeout(()=>{
+            setIndex((index + 1)%images.length);
+        }, 3000)
+        
+    },[index]);
     return (
         <>
             <WhatsappPop />
-            <section className=" slider_section">
+            <section className=" slider_section" style={{backgroundImage:`url(${images[index]})`}}>
                 <div className="container" data-aos="zoom-in">
                     <div className="row">
                         <div className="col-md-6" >
                             <div className="detail_box ">
-                                <h1 style={{fontFamily: "Rokkitt"}}>
+                                <h1>
                                     <span>Bienvenue chez</span>{" "}<br />
                                     <ReactTyped strings={["B.E.E.M.P. "]} typeSpeed={70} loop />
                                 </h1>
@@ -32,7 +45,7 @@ export default function Home() {
                                     moment et par endroit qualifiées de maledction pour et parles populations 
                                     qui devraient être bénéficiaires.
                                 </p>
-                                <a href="/contact" style={{ textDecoration: "none" }}>
+                                <a href="contact" style={{ textDecoration: "none"}}>
                                     Contact Nous
                                 </a>
                             </div>

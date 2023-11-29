@@ -9,6 +9,9 @@ const Header = () => {
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
+    const navigate = useNavigate()
+    window.scrollTo(0, 10)
+    navigate(!showNavbar)
   }
 
   const [colorChange, setColorchange] = useState(false);
@@ -21,7 +24,6 @@ const Header = () => {
     }
   };
   window.addEventListener('scroll', changeNavbarColor);
-
 
   return (
     <Fragment >
@@ -40,7 +42,7 @@ const Header = () => {
               </div>
               <div className={`mt-2 nav-elements  ${showNavbar && 'active'}`} checked>
                 <div className='menu-closed' onClick={handleShowNavbar}>
-                  
+
                   <button class="Buttonclose">
                     <span class="X"></span>
                     <span class="Y"></span>

@@ -11,7 +11,7 @@ import {BiLogoLinkedin} from "react-icons/bi"
 
 export default function AboutTeam() {
     useEffect(() => {
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 2200 })
     }, [])
     return (
         <>

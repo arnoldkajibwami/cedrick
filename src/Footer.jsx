@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     useEffect(() => {
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 2200 })
     }, [])
     return (
         <>
@@ -30,15 +30,20 @@ export default function Footer() {
                                             Addresse
                                         </span>
                                     </a>
-                                    <a href="">
+                                    <a href="contact">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <span>
                                             Tél: +243 973 679 401
-                                            <br />
-                                            Tél: +243 817 022 328
                                         </span>
                                     </a>
-                                    <a href="/">
+                                    <a href="contact">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <span>
+                                            Tél: +243 973 679 401
+                                        </span>
+                                        <br />
+                                    </a>
+                                    <a href="contact">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                         <span style={{ textDecoration: "none", color: "skyblue" }}>
                                             beepmasbl1@gmail.com

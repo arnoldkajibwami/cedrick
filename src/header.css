@@ -120,7 +120,6 @@
 
 .btnoder:hover {
   background-color: rgb(44, 43, 43);
-  ;
   color: #ffffff;
 }
 
@@ -129,7 +128,8 @@
     margin-right: 30px;
   }
   .navbar {
-    /* background-color: #eae6f5 !important; */
+    height: 52px;
+    padding: 12px;
     background-color: white !important;
   }
   .logo h4 {

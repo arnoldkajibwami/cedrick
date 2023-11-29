@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 
 export default function Contactcontent() {
     useEffect(() => {
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 2200 })
     }, [])
     return (
         <>

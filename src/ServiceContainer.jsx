@@ -21,16 +21,16 @@ export default function ServiceContainer() {
         <>
             <section className="service_section">
                 <div className="container">
-                    <div className="heading_container d-flex">
-                        <h2 data-aos="flip-left">
+                    <div className="heading_container d-flex" data-aos="fade-up">
+                        <h2>
                             Our Services
                         </h2>
                     </div>
 
-                    <div className="service_container" data-aos="zoom-out">
-                        <div className="box" >
+                    <div className="service_container">
+                        <div className="box"  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image2} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image2} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -41,9 +41,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box active" >
+                        <div className="box active"  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image3} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image3} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -54,9 +54,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box" >
+                        <div className="box"  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image4} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image4} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -67,9 +67,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box " >
+                        <div className="box "  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image5} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image5} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -80,9 +80,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box" >
+                        <div className="box"  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image6} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image6} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -93,9 +93,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box" >
+                        <div className="box"  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image7} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image7} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -106,9 +106,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box" >
+                        <div className="box"  data-aos="fade-up">
                             <div className="img-box" >
-                                <img src={Image8} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image8} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
@@ -119,9 +119,9 @@ export default function ServiceContainer() {
                                 </p>
                             </div>
                         </div>
-                        <div className="box" >
+                        <div className="box"  data-aos="fade-up">
                             <div className="img-box">
-                                <img src={Image9} className="img1" alt="" />
+                                <img data-aos="zoom-in" src={Image9} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
