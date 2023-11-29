@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col-md-6" >
                             <div className="detail_box ">
-                                <h1>
+                                <h1 style={{fontFamily: "Rokkitt"}}>
                                     <span>Bienvenue chez</span>{" "}<br />
                                     <ReactTyped strings={["B.E.E.M.P. "]} typeSpeed={70} loop />
                                 </h1>

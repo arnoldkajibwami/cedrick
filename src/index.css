@@ -11,7 +11,7 @@ body {
 
   color: #0c0c0c;
   background-color: #ffffff;
-  font-size: large !important;
+  font-size: auto !important;
 }
 
 /* slider section */
@@ -65,7 +65,7 @@ body {
 
 .slider_section .detail_box p {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(255, 246, 246);
   /* color: rgb(44, 43, 43); */
 }
