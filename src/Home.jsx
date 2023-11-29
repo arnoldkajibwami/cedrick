@@ -17,9 +17,9 @@ export default function Home() {
         <>
             <WhatsappPop />
             <section className=" slider_section">
-                <div className="container" >
+                <div className="container" data-aos="zoom-in">
                     <div className="row">
-                        <div className="col-md-6" data-aos="zoom-in">
+                        <div className="col-md-6" >
                             <div className="detail_box ">
                                 <h1>
                                     <span>Bienvenue chez</span>{" "}<br />
@@ -40,17 +40,17 @@ export default function Home() {
                     </div>
                 </div>
             </section >
-            <div className="mt-5">
+            <div className="mt-5" >
                 <ServiceContainer />
             </div>
 
-            <div className="mt-5 abouthomediv">
+            <div className="mt-5 abouthomediv" >
                 <AboutContent />
-            </div>
-
+                </div>
+ {/*
             <div className="mt-5">
                 <Contactcontent />
-            </div>
+            </div> */}
         </>
     );
 }

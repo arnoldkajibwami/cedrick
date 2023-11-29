@@ -2,7 +2,7 @@
 
 .navbar {
   /* background-color: #eae6f5 !important; */
-  background-color: white 0%!important;
+  background-color: white 0% !important;
   height: 70px;
   z-index: 9999;
   width: 100%;
@@ -16,6 +16,7 @@
 
 .logo h4 {
   color: rgb(37, 37, 37);
+  color: #ffffff;
   z-index: 1;
 }
 
@@ -76,6 +77,7 @@
   padding: 15px 20px;
   /* margin:  15px */
   color: #000000;
+  color: #ffffff;
   text-align: center;
   border-radius: 35px;
   text-transform: uppercase;
@@ -86,6 +88,8 @@
 .nav-elements ul a:hover {
   background-color: rgb(44, 43, 43);
   color: #ffffff;
+  background-color: #ffffff;
+  color: rgb(44, 43, 43);
 }
 
 .nav-elements ul a.active {
@@ -124,6 +128,15 @@
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
   }
+  .navbar {
+    /* background-color: #eae6f5 !important; */
+    background-color: white !important;
+  }
+  .logo h4 {
+    color: rgb(37, 37, 37);
+    z-index: 1;
+  }
+
 }
 
 .menu-closed {

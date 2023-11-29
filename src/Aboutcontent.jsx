@@ -10,9 +10,9 @@ export default function AboutContent() {
     }, [])
     return (
         <>
-            <div className="about_section layout_padding">
-                <div className="container">
-                    <h1 className="about_taital" data-aos="fade-left">Apropos de</h1>
+            <div className="about_section layout_padding" >
+                <div className="container" data-aos="fade-up">
+                    <h1 className="about_taital" >Apropos de</h1>
                     <p className="about_text">L'Entreprise B.E.E.P.M. à été crée en Fevrier 2016 par un groupe de scientifiaue <br/>multidiciplinaire local</p>
                     <div className="about_section_2">
                         <div className="row">
@@ -21,7 +21,7 @@ export default function AboutContent() {
                                     <img data-aos="zoom-in" src={Image2} alt="about" />
                                 </div>
                             </div>
-                            <div className="col-lg-6" data-aos="fade-right">
+                            <div className="col-lg-6" >
                                 <div className="about_taital_main">
                                     <p className="lorem_text ">
                                         <span>L'entrepise BEEPM à pour Objectif:</span>
@@ -34,7 +34,7 @@ export default function AboutContent() {
                                             </li>
                                         </ul> 
                                     </p>
-                                    <a href="#team" className='detailboxa' style={{ textDecoration: "none" }} data-aos="fade-up">
+                                    <a href="#team" className='detailboxa mb-5' style={{ textDecoration: "none" }} data-aos="fade-up">
                                         Notre Equipe Technique
                                     </a>
                                 </div>

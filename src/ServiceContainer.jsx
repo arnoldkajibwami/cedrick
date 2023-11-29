@@ -27,9 +27,9 @@ export default function ServiceContainer() {
                         </h2>
                     </div>
 
-                    <div className="service_container" data-aos="zoom-in">
+                    <div className="service_container" data-aos="zoom-out">
                         <div className="box" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image2} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -42,7 +42,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box active" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image3} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -55,7 +55,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image4} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -68,7 +68,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box " >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image5} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -81,7 +81,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image6} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -94,7 +94,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image7} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -107,7 +107,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box" >
                                 <img src={Image8} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -120,7 +120,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                         <div className="box" >
-                            <div className="img-box" data-aos="zoom-out">
+                            <div className="img-box">
                                 <img src={Image9} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
@@ -133,7 +133,7 @@ export default function ServiceContainer() {
                             </div>
                         </div>
                     </div>
-                    <div className="btn-box" data-aos="zoom-in" style={{marginBottom:"-150px"}}>
+                    <div className="btn-box" style={{marginBottom:"-150px"}}>
                         {/* <a href="">
                             Read More
                         </a> */}
