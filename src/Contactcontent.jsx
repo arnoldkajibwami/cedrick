@@ -14,7 +14,7 @@ export default function Contactcontent() {
             <section id="contact" className="contact">
 
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
-                    <h3 className="text-center mb-5" data-aos="fade-up">Stay In Touch With Us</h3>
+                    <h3 className="text-center mb-5" data-aos="fade-up">Contact Nous </h3>
 
                     <div className="row gy-4 mb-5">
                         <div className="col-lg-6 itemRaduis" data-aos="fade-left">
@@ -30,7 +30,7 @@ export default function Contactcontent() {
                             <div className="info-item d-flex flex-column justify-content-center align-items-center">
                                 <i className="bi bi-envelope"></i>
                                 <h3>Address Mail</h3>
-                                <p>beepm1@gmail.com</p>
+                                <p>beepmasbl1@gmail.com</p>
                                 <p style={{ color: "white" }}>beepm1@gmail.com</p>
                             </div>
                         </div>

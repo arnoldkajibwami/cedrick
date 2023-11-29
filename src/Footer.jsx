@@ -7,6 +7,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import "./footer.css"
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     useEffect(() => {
@@ -40,7 +41,7 @@ export default function Footer() {
                                     <a href="/">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                         <span style={{ textDecoration: "none", color: "skyblue" }}>
-                                            beepm1@gmail.com
+                                            beepmasbl1@gmail.com
                                         </span>
                                     </a>
                                 </div>
@@ -52,21 +53,22 @@ export default function Footer() {
                                     <span style={{ marginRight: "10px" }}>B.E.E.P.M.</span> <span></span>
                                 </a>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor It uses a dictionary of over 200 Latin words, combined with
+                                    L'Entreprise B.E.E.P.M. à été crée en Fevrier 2016 par un groupe de scientifiaue
+                                    <br />multidiciplinaire local
                                 </p>
                                 <div class="footer_social">
-                                    <i className='socialnetwork' style={{ marginLeft: "5px" }}><BiLogoInstagram /></i>
-                                    <i className='socialnetwork'><BiLogoFacebook /></i>
-                                    <i className='socialnetwork'><BiLogoTwitter /></i>
+                                    <i className='socialnetwork' style={{ marginLeft: "5px" }}> <Link to="/"><BiLogoInstagram /></Link> </i>
+                                    <i className='socialnetwork'><Link to=""><BiLogoFacebook /></Link></i>
+                                    <i className='socialnetwork'><Link to=""><BiLogoTwitter /></Link></i>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 footer-col">
                             <h4>
-                                Ouvert 
+                                Ouvert
                             </h4>
                             <p>
-                                Lundi / Samedi 
+                                Lundi / Samedi
                             </p>
                             <p>
                                 8.00 Am - 4.30 Pm
@@ -86,7 +88,7 @@ export default function Footer() {
                         </p>
                     </div> */}
                 </div>
-            </footer>
+            </footer >
         </>
     );
 }

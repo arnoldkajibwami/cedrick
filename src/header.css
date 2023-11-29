@@ -2,15 +2,14 @@
 
 .navbar {
   /* background-color: #eae6f5 !important; */
-  background-color: white !important;
+  background-color: white 0%!important;
   height: 70px;
   z-index: 9999;
   width: 100%;
   position: fixed;
 }
 .navbar.colorChange {
-  /* background-color: #f0efef !important; */
-  background: red;
+  background-color: #f0efef !important;
   transition: 0.2s ease-in-out !important;
 }
 

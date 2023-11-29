@@ -26,8 +26,11 @@ export default function Home() {
                                     <ReactTyped strings={["B.E.E.M.P. "]} typeSpeed={70} loop />
                                 </h1>
                                 <p >
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    La RDC est un pays dont le sol et sous-sol regorgent des richesses qualifiées sous 
+                                    plusieurs cieux de scandale géologique.
+                                    Au lieu d'etre une benediction, ces richesses minieres ont même été par 
+                                    moment et par endroit qualifiées de maledction pour et parles populations 
+                                    qui devraient être bénéficiaires.
                                 </p>
                                 <a href="/contact" style={{ textDecoration: "none" }}>
                                     Contact Nous

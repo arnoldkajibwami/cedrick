@@ -16,13 +16,12 @@ export default function AboutTeam() {
     return (
         <>
             <section className="text-center mb-5">
-                {/* <h1 data-aos="fade-up">Our Team</h1> */}
                 <div id="team" className="team">
                     <div className="container">
 
                         <div className="section-header text-center">
                             <h2>Notre Equipe</h2>
-                            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+                            {/* <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p> */}
                         </div>
 
                         <div className="row gy-4 mt-2">
@@ -39,7 +38,8 @@ export default function AboutTeam() {
                                 </div>
                                 <div className="member-info text-center">
                                     <h4>Cedrick</h4>
-                                    <span>Président-directeur général</span>
+                                    <h6>Ir de Mines</h6>
+                                    <span>Directeur Général</span>
                                 </div>
                             </div>
 {/* 
