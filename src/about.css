@@ -11,6 +11,14 @@
   /* margin-top: 50px !important; */
 }
 
+@media (max-width:770px){
+  #aboutSection{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+}
+
 @media(max-width: 500px) {
   #aboutSection {
     width: 95%;
@@ -50,11 +58,15 @@
 .about_taital {
   width: 40%;
   float: left;
-  /* font-size: 40px; */
+  font-size: 40px;
+  margin-top: 100px !important;
   color: #0f0f0f;
   font-weight: bold;
 }
-
+.abouthomediv{
+  margin-top: -70px !important;
+  margin-bottom: -90px;
+}
 .about_text {
   width: 100%;
   float: left;
@@ -75,7 +87,7 @@
 .about_taital_main {
   width: 80%;
   float: left;
-  padding-top: 85px;
+  padding-top: 15%;
   font-weight: 400;
   padding-left: 50px;
 }
@@ -163,7 +175,7 @@
 }
 
 .team .member .member-img .social {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;

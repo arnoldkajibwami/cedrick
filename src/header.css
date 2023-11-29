@@ -1,18 +1,19 @@
 /* Navbar */
 
-.navbar.colorChange {
-  background-color: #f0efef !important;
-  transition: 0.2s ease-in-out !important;
-}
-
 .navbar {
   /* background-color: #eae6f5 !important; */
   background-color: white !important;
-  height: 80px;
+  height: 70px;
   z-index: 9999;
   width: 100%;
   position: fixed;
 }
+.navbar.colorChange {
+  /* background-color: #f0efef !important; */
+  background: red;
+  transition: 0.2s ease-in-out !important;
+}
+
 
 .logo h4 {
   color: rgb(37, 37, 37);
@@ -21,6 +22,9 @@
 
 .tonone {
   display: none !important;
+}
+.menu-icon{
+  transform: translate(-12px) translateY(-10px);
 }
 
 .menu-icon span {
@@ -232,7 +236,7 @@
   /* background: rgba(180, 83, 83, 0.11); */
   background-color: rgb(206, 19, 19);
   border-radius: 5px;
-  transition: background 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .X {

@@ -25,16 +25,15 @@ const Header = () => {
 
   return (
     <Fragment >
-      <div className="hero_area ">
+      <div className="hero_area">
         <nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
-          <div className='container '>
+          <div className='container'>
             <div className=" Navcontainer">
               <div className="logo d-flex">
                 <img style={{ height: "40px", width: "40px", borderRadius: "259px", marginRight: "5px", background: "transparent" }} src={Brandlogo} alt='logo' />
                 <Link to="/" style={{ textDecoration: "none", color: "rgb(44, 43, 43);" }}><h4>B.E.E.P.M. ASBL</h4></Link>
               </div>
               <div className="menu-icon" onClick={handleShowNavbar}>
-                {/* <button className='btn btn-danger'>Back</button> */}
                 <span> </span>
                 <span id="spanleft"></span>
                 <span> </span>
@@ -51,21 +50,21 @@ const Header = () => {
                 </div>
                 <ul>
                   <li>
-                    <NavLink to="/home">Accueil</NavLink>
+                    <NavLink to="/home" onClick={handleShowNavbar}>Accueil</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/about">Apropos</NavLink>
+                    <NavLink to="/about" onClick={handleShowNavbar}>Apropos</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/service">Service</NavLink>
+                    <NavLink to="/service" onClick={handleShowNavbar}>Service</NavLink>
                   </li><li>
-                    <NavLink to="/gallery">Gallerie</NavLink>
+                    <NavLink to="/gallery" onClick={handleShowNavbar}>Gallerie</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/contact">contact</NavLink>
+                    <NavLink to="/contact" onClick={handleShowNavbar}>contact</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/contact" style={{ display: "none" }}>Contact</NavLink>
+                    <NavLink to="/contact" style={{ display: "none" }} onClick={handleShowNavbar}>Contact</NavLink>
                   </li>
                 </ul>
               </div>

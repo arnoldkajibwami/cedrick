@@ -35,6 +35,13 @@
   transition: all .1s;
 }
 
+@media (max-width:770px) {
+  .service_section .service_container .box {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 .service_section .service_container .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +64,8 @@
 }
 
 .service_section .service_container .box .detail-box h5 {
-  color: rgb(44, 43, 43);;
+  color: rgb(44, 43, 43);
+  ;
   font-weight: 900;
   position: relative;
 
@@ -65,7 +73,8 @@
 
 .service_section .service_container .box:hover,
 .service_section .service_container .box.active {
-  border-top: 15px solid rgb(44, 43, 43);;
+  border-top: 15px solid rgb(44, 43, 43);
+  ;
 }
 
 .service_section .btn-box {
@@ -81,7 +90,8 @@
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: rgb(44, 43, 43);;
+  background-color: rgb(44, 43, 43);
+  ;
   color: #ffffff;
   border-radius: 35px;
 }
