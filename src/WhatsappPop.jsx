@@ -6,8 +6,8 @@ export default function WhatsappPop (){
 
   return (
       <FloatingWhatsApp 
-      phoneNumber='+243971133807'
-      accountName='B.E.E.P.M Asbl'  
+      phoneNumber='+243973679401'
+      accountName='B.E.E.P.M '  
       chatMessage='Bonjour!'
       avatar={Image1}
       modil

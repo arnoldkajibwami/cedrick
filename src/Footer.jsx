@@ -40,7 +40,7 @@ export default function Footer() {
                                     <a href="/">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                         <span style={{ textDecoration: "none", color: "skyblue" }}>
-                                            beepmasbl1@gmail.com
+                                            beepm1@gmail.com
                                         </span>
                                     </a>
                                 </div>
@@ -49,7 +49,7 @@ export default function Footer() {
                         <div class="col-md-4 footer-col">
                             <div class="footer_detail">
                                 <a href="" class="footer-logo" style={{ textDecoration: "none" }}>
-                                    <span style={{ marginRight: "10px" }}>B.E.E.P.M.</span> <span>ASBL</span>
+                                    <span style={{ marginRight: "10px" }}>B.E.E.P.M.</span> <span></span>
                                 </a>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor It uses a dictionary of over 200 Latin words, combined with
@@ -76,7 +76,7 @@ export default function Footer() {
                     <div class="footer-info">
                         <p>
                             &copy; <span id="displayYear"></span> All Rights Reserved By
-                            <a href="/home" style={{ marginLeft: "5px", color: "skyblue", textDecoration: "none" }}>B.E.E.P.M. Asbl</a>
+                            <a href="/home" style={{ marginLeft: "5px", color: "skyblue", textDecoration: "none" }}>B.E.E.P.M. </a>
                         </p>
                     </div>
                     {/* <div class="footer-info">

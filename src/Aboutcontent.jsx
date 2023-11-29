@@ -13,7 +13,7 @@ export default function AboutContent() {
             <div className="about_section layout_padding">
                 <div className="container">
                     <h1 className="about_taital" data-aos="fade-left">Apropos de</h1>
-                    <p className="about_text">L'Association B.E.E.P.M. Asbl est une association sans ... fondée en 2000</p>
+                    <p className="about_text">L'Association B.E.E.P.M.  est une association sans ... fondée en 2000</p>
                     <div className="about_section_2">
                         <div className="row">
                             <div className="col-lg-6">

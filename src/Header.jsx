@@ -31,7 +31,7 @@ const Header = () => {
             <div className=" Navcontainer">
               <div className="logo d-flex">
                 <img style={{ height: "40px", width: "40px", borderRadius: "259px", marginRight: "5px", background: "transparent" }} src={Brandlogo} alt='logo' />
-                <Link to="/" style={{ textDecoration: "none", color: "rgb(44, 43, 43);" }}><h4>B.E.E.P.M. ASBL</h4></Link>
+                <Link to="/" style={{ textDecoration: "none", color: "rgb(44, 43, 43);" }}><h4>B.E.E.P.M. </h4></Link>
               </div>
               <div className="menu-icon" onClick={handleShowNavbar}>
                 <span> </span>

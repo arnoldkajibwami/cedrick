@@ -30,8 +30,8 @@ export default function Contactcontent() {
                             <div className="info-item d-flex flex-column justify-content-center align-items-center">
                                 <i className="bi bi-envelope"></i>
                                 <h3>Address Mail</h3>
-                                <p>beepmasbl1@gmail.com</p>
-                                <p style={{ color: "white" }}>beepmasbl1@gmail.com</p>
+                                <p>beepm1@gmail.com</p>
+                                <p style={{ color: "white" }}>beepm1@gmail.com</p>
                             </div>
                         </div>
 

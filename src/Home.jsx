@@ -23,7 +23,7 @@ export default function Home() {
                             <div className="detail_box ">
                                 <h1>
                                     <span>Bienvenue chez</span>{" "}<br />
-                                    <ReactTyped strings={["B.E.E.M.P. Asbl"]} typeSpeed={70} loop />
+                                    <ReactTyped strings={["B.E.E.M.P. "]} typeSpeed={70} loop />
                                 </h1>
                                 <p >
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
