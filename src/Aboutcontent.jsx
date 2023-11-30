@@ -22,7 +22,7 @@ export default function AboutContent() {
             <div className="about_section layout_padding" >
                 <div className="container" data-aos="fade-up">
                     <h1 className="about_taital" >Apropos de</h1>
-                    <p className="about_text">L'Entreprise B.E.E.P.M. à été crée en Fevrier 2016 par un groupe de scientifiaue <br />multidiciplinaire local</p>
+                    <p className="about_text">L'Entreprise Bureau D'etude et execution des projets miniers (B.E.E.P.M.) à été crée en Fevrier 2016 par un groupe de scientifiaue <br />multidiciplinaire local</p>
                     <div className="about_section_2">
                         <div className="row">
                             <div className="col-lg-6">
@@ -33,7 +33,7 @@ export default function AboutContent() {
                             <div className="col-lg-6" >
                                 <div className="about_taital_main">
                                     <p className="lorem_text " data-aos="fade-up">
-                                        <span >L'entrepise BEEPM à pour objectif:</span>
+                                        <span >L'entrepise Bureau D'etude et execution des projets miniers BEEPM à pour objectif:</span>
                                         <ul>
                                             <li><span style={{ fontWeight: "700" }}>I</span>nitier, Realiser et accompagner des etudes, des recherches et d'autres projects sociaux dans les domaines miniers;</li>
                                             <li><span style={{ fontWeight: "700" }}>S</span>'investir dans des activites de regroupements et de structurations des creuseurs artisanaux en coopératives minieres</li>
