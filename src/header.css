@@ -2,14 +2,20 @@
 
 .navbar {
   /* background-color: #eae6f5 !important; */
-  background-color: white 0% !important;
+  /* background-color: white 0% !important; */
+  background: url('')
+  ,linear-gradient(rgba(2, 2, 2, 0.5),
+   rgba(145, 145, 145, 0.7));
+  background-blend-mode: overlay;
   height: 70px;
   z-index: 9999;
+  padding: 10px;
   width: 100%;
   position: fixed;
 }
+
 .navbar.colorChange {
-  background-color: #f0efef !important;
+  background-color: #999999 !important;
   transition: 0.2s ease-in-out !important;
 }
 
@@ -17,13 +23,15 @@
 .logo h4 {
   color: rgb(37, 37, 37);
   color: #ffffff;
+  font-size: 25px;
   z-index: 1;
 }
 
 .tonone {
   display: none !important;
 }
-.menu-icon{
+
+.menu-icon {
   transform: translate(-12px) translateY(-10px);
 }
 
@@ -78,23 +86,24 @@
   /* margin:  15px */
   color: #000000;
   color: #ffffff;
+  /* color: red; */
   text-align: center;
   border-radius: 35px;
+  font-size: 13px !important;
   text-transform: uppercase;
   font-size: large;
   text-decoration: none;
 }
 
 .nav-elements ul a:hover {
-  background-color: rgb(44, 43, 43);
-  color: #ffffff;
+  /* background-color: rgb(44, 43, 43);
+  color: #ffffff; */
   background-color: #ffffff;
   color: rgb(44, 43, 43);
 }
 
 .nav-elements ul a.active {
   background-color: rgb(44, 43, 43);
-  ;
   color: #ffffff;
   position: relative;
 
@@ -127,14 +136,19 @@
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
   }
+
   .navbar {
     height: 52px;
     padding: 12px;
-    background-color: white !important;
+
   }
+
   .logo h4 {
-    color: rgb(37, 37, 37);
     z-index: 1;
+  }
+
+  .menu-icon span {
+    background-color: rgb(255, 255, 255);
   }
 
 }
@@ -175,7 +189,7 @@
     right: 0;
     top: 0 !important;
     transform: translateY(-10px);
-    background-color: #f0efef;
+    background-color: #999999;
     backdrop-filter: blur(20px);
     border-radius: 8px;
     width: 0px;
@@ -210,7 +224,7 @@
     top: 0 !important;
     transform: translateY(-10px);
     /* background: rgb(37, 37, 37); */
-    background-color: #f0efef;
+    background-color: #999999;
     backdrop-filter: blur(20px);
     border-radius: 8px;
     width: 0px;

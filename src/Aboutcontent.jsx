@@ -3,14 +3,14 @@ import Image2 from "./images/8.png"
 import "./about.css"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import {useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function AboutContent() {
 
     useEffect(() => {
         AOS.init({ duration: 2200 })
     }, [])
-    
+
     const navigate = useNavigate()
     function GotoTeam() {
         window.scrollTo(0, 900)
@@ -33,14 +33,13 @@ export default function AboutContent() {
                             <div className="col-lg-6" >
                                 <div className="about_taital_main">
                                     <p className="lorem_text " data-aos="fade-up">
-                                        <span>L'entrepise BEEPM à pour Objectif:</span>
+                                        <span >L'entrepise BEEPM à pour objectif:</span>
                                         <ul>
-                                            <li>Initier, Realiser et accompagner des etudes, des recherches et d'autres projects sociaux dans les domaines miniers;</li>
-                                            <li>S'investir dans des activites de regroupements et de structurations des creuseurs artisanaux en coopératives minieres</li>
-                                            <li>Encadrer et fournir des appuis techniques multisectoriels ainsi que autres assistances aux populations avoisinant les sites et les zones d'influences minieres
-                                                <li>Promouvoir la migration de l'exploitation de l'exploitation minière artisanale vers l'exploitation semi-industriel</li>
-                                                <li>Entretenir des relations de coopérations et d'echanges tant nationales qu'internationales</li>
-                                            </li>
+                                            <li><span style={{ fontWeight: "700" }}>I</span>nitier, Realiser et accompagner des etudes, des recherches et d'autres projects sociaux dans les domaines miniers;</li>
+                                            <li><span style={{ fontWeight: "700" }}>S</span>'investir dans des activites de regroupements et de structurations des creuseurs artisanaux en coopératives minieres</li>
+                                            <li><span style={{ fontWeight: "700" }}>E</span>ncadrer et fournir des appuis techniques multisectoriels ainsi que autres assistances aux populations avoisinant les sites et les zones d'influences minieres</li>
+                                            <li><span style={{ fontWeight: "700" }}>P</span>romouvoir la migration de l'exploitation de l'exploitation minière artisanale vers l'exploitation semi-industriel</li>
+                                            <li><span style={{ fontWeight: "700" }}>E</span>ntretenir des relations de coopérations et d'echanges tant nationales qu'internationales</li>
                                         </ul>
                                     </p>
                                     <span onClick={GotoTeam} className='detailboxa mb-5' style={{ textDecoration: "none" }} data-aos="fade-up">

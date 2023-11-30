@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ServiceContainer from "./ServiceContainer";
-import Contactcontent from "./Contactcontent";
 import ReactTyped from "react-typed";
 import WhatsappPop from "./WhatsappPop";
 import AOS from 'aos'
@@ -23,7 +22,7 @@ export default function Home() {
     useEffect(()=>{
         setTimeout(()=>{
             setIndex((index + 1)%images.length);
-        }, 3000)
+        }, 4000)
         
     },[index]);
     return (
@@ -34,7 +33,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col-md-6" >
                             <div className="detail_box ">
-                                <h1>
+                                <h1 >
                                     <span>Bienvenue chez</span>{" "}<br />
                                     <ReactTyped strings={["B.E.E.M.P. "]} typeSpeed={70} loop />
                                 </h1>
