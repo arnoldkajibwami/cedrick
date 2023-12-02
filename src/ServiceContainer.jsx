@@ -28,7 +28,7 @@ export default function ServiceContainer() {
                     </div>
 
                     <div className="service_container">
-                        <div className="box"  data-aos="fade-up">
+                        <div className="box" data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image2} className="img1" alt="" />
                             </div>
@@ -37,11 +37,11 @@ export default function ServiceContainer() {
                                     La Geologie et Genie Minier
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    Faciliter les parternaires financier dans ses domaines de trouver les minerais recherche
                                 </p>
                             </div>
                         </div>
-                        <div className="box active"  data-aos="fade-up">
+                        <div className="box active" data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image3} className="img1" alt="" />
                             </div>
@@ -50,11 +50,12 @@ export default function ServiceContainer() {
                                     La construction (Genie Civile)
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    Construction des routes, Hopitaux, Ecoles et autres.
+                                    pour repondre aux besoins sociaux dans les sites miniers
                                 </p>
                             </div>
                         </div>
-                        <div className="box"  data-aos="fade-up">
+                        <div className="box" data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image4} className="img1" alt="" />
                             </div>
@@ -63,24 +64,32 @@ export default function ServiceContainer() {
                                     Electromecanique
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    Fabrication des outils, machines adaptés pour repondre au besoins, à l'exploitation
+                                    ,traitement et récuperation de minerais. Afin que les activites minieres soient
+                                    economiquement rentable pour tous.
                                 </p>
                             </div>
                         </div>
-                        <div className="box "  data-aos="fade-up">
+                        <div className="box " data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image5} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
-                                    Electricite Industrielle
+                                    Ventes des Appareils
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    Ventes des appareils detecteurs et autres appareils
                                 </p>
+                                <span>
+                                    contact nous sur se numero pour l'achat de appareils<br/>
+                                    <a href="" >
+                                        <button className="btn btn-danger">+243 832 067 467</button>
+                                    </a>
+                                </span>
                             </div>
                         </div>
-                        <div className="box"  data-aos="fade-up">
+                        <div className="box" data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image6} className="img1" alt="" />
                             </div>
@@ -89,24 +98,26 @@ export default function ServiceContainer() {
                                     Chimie-metallurgie
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    Proposer par des méthodes de récuperation de minerais par des principes chimiques
                                 </p>
                             </div>
                         </div>
-                        <div className="box"  data-aos="fade-up">
+                        <div className="box" data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image7} className="img1" alt="" />
                             </div>
                             <div className="detail-box">
                                 <h5>
-                                    Protection de L'environement
+                                    Protection de l'environnement
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    réduction de la consommation énergétique, d'eau et papier. meilleure gestion et réduction des déchets.
+                                    amélioration de la mobilité durable.
+                                    former et responsabiliser le personnel aux questions environnementales.
                                 </p>
                             </div>
                         </div>
-                        <div className="box"  data-aos="fade-up">
+                        <div className="box" data-aos="fade-up">
                             <div className="img-box" >
                                 <img data-aos="zoom-in" src={Image8} className="img1" alt="" />
                             </div>
@@ -115,11 +126,11 @@ export default function ServiceContainer() {
                                     Developpement Communautaire
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    Initier, Realiser et accompagner des projects sociaux economique au profit des populations environnante
                                 </p>
                             </div>
                         </div>
-                        <div className="box"  data-aos="fade-up">
+                        <div className="box" data-aos="fade-up">
                             <div className="img-box">
                                 <img data-aos="zoom-in" src={Image9} className="img1" alt="" />
                             </div>
@@ -128,12 +139,13 @@ export default function ServiceContainer() {
                                     Clinique Juridique
                                 </h5>
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum available,
+                                    La Clinique juridique a pour objet d'offrir un service d'information aux personnes
+                                    confrontées à des difficultés d'ordre juridique ou social.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="btn-box" style={{marginBottom:"-150px"}}>
+                    <div className="btn-box" style={{ marginBottom: "-150px" }}>
                         {/* <a href="">
                             Read More
                         </a> */}

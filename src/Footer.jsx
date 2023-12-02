@@ -64,7 +64,7 @@ export default function Footer() {
                                 <div class="footer_social">
                                     <i className='socialnetwork' style={{ marginLeft: "5px" }}> <Link to="https://www.instagram.com/beepmasbl/"><BiLogoInstagram /></Link> </i>
                                     <i className='socialnetwork'><Link to="https://www.facebook.com/profile.php?id=61554105458763"><BiLogoFacebook /></Link></i>
-                                    <i className='socialnetwork'><Link to=""><BiLogoTwitter /></Link></i>
+                                    <i className='socialnetwork'><Link to="https://twitter.com/Entreprisebeepm"><BiLogoTwitter /></Link></i>
                                 </div>
                             </div>
                         </div>

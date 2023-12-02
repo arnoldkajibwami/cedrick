@@ -29,12 +29,12 @@ export default function AboutTeam() {
                             <div className="col-lg-4 col-md-6 member">
                                 <div className="member-img">
                                     <img src={Team1} className="img-fluid" alt="" />
-                                    <div className="social">
+                                    {/* <div className="social">
                                         <Link to="#"><BiLogoInstagram/></Link>
                                         <Link to="#"><BiLogoFacebook/></Link>
                                         <Link to="#"><BiLogoTwitter/></Link>
                                         <Link to="#"><BiLogoLinkedin/></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="member-info text-center">
                                     <h4>Cedrick</h4>
@@ -42,22 +42,25 @@ export default function AboutTeam() {
                                     <span>Directeur Général</span>
                                 </div>
                             </div>
-{/* 
+
                             <div className="col-lg-4 col-md-6 member">
                                 <div className="member-img">
-                                    <img src={Team2} className="img-fluid" alt="" />
-                                    <div className="social">
+                                    <img src={Team1} className="img-fluid" alt="" />
+                                    {/* <div className="social">
                                         <Link href="#"><i className="bi bi-twitter"></i></Link>
                                         <Link href="#"><BiLogoFacebook/></Link>
                                         <Link href="#"><BiLogoTwitter/></Link>
                                         <Link href="#"><i className="bi bi-linkedin"></i></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="member-info text-center">
-                                    <h4>Ingrid BAKULIKIRA DJUMA</h4>
-                                    <span>Directeur Administratif et Financier</span>
+                                    <h4>Ozine</h4>
+                                    <span>Charger de Ventes</span>
+                                    <a href="" >
+                                        <button className="btn btn-danger">+243 832 067 467</button>
+                                    </a>
                                 </div>
-                            </div> */}
+                            </div> 
 
                         </div>
 
