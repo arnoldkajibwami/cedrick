@@ -7,8 +7,8 @@ import 'aos/dist/aos.css'
 import AboutContent from "./Aboutcontent";
 import Contactcontent from "./Contactcontent"
 import Image1 from "./images/14.jpg"
-import Image2 from "./images/4.jpg"
-import Image3 from "./images/1.jpg"
+import Image2 from "./images/16.png"
+import Image3 from "./images/17.png"
 
 
 export default function Home() {

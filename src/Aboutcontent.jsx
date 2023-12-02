@@ -22,7 +22,7 @@ export default function AboutContent() {
             <div className="about_section layout_padding" >
                 <div className="container" data-aos="fade-up">
                     <h1 className="about_taital" >Apropos de</h1>
-                    <p className="about_text">L'Entreprise Bureau D'etude et execution des projets miniers (B.E.E.P.M.) à été crée en Fevrier 2016 par un groupe de scientifiaue <br />multidiciplinaire local</p>
+                    <p className="about_text">Le Bureau D'etude et execution des projets miniers (B.E.E.P.M.) à été crée en Fevrier 2016 par un groupe de scientifique <br />multi-diciplinaire local</p>
                     <div className="about_section_2">
                         <div className="row">
                             <div className="col-lg-6">
