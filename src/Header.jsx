@@ -1,8 +1,8 @@
-import { useState, Fragment } from 'react'
+import { useState, Fragment, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import './header.css'
 import Brandlogo from "./images/logo1.png"
-
+import { useTranslation } from 'react-i18next'
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -24,6 +24,15 @@ const Header = () => {
     }
   };
   window.addEventListener('scroll', changeNavbarColor);
+
+  const { t, i18n } = useTranslation();
+
+  useEffect (() => {
+    const lng = navigator.language;
+    i18n.changeLanguage(lng);
+  },[])
+
+  const lng = navigator.language;
 
   return (
     <Fragment >
@@ -52,6 +61,7 @@ const Header = () => {
                 </div>
                 <ul>
                   <li>
+                    {/* <NavLink to="/home" onClick={handleShowNavbar}>{t('keywords.Accueil')}</NavLink> */}
                     <NavLink to="/home" onClick={handleShowNavbar}>Accueil</NavLink>
                   </li>
                   <li>

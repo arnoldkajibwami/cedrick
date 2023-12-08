@@ -6,14 +6,13 @@ import Footer from "./Footer";
 import Gallery from "./Gallery";
 import About from "./About";
 import Contact from "./Contact";
+// import { useTranslation } from "react-i18next";
 
 function App() {
 
   return (
     <Router>
-      {/* <Header/> */}
       <Header/>
-      {/* <Service/> */}
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home />} />
@@ -21,8 +20,8 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/contact" element={<Contact/>} /> 
-      </Routes>
-      <Footer/>
+      </Routes> 
+      <Footer/> 
     </Router>
   )
 }

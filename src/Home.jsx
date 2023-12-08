@@ -13,13 +13,13 @@ import Image3 from "./images/17.png"
 
 export default function Home() {
 
-    const text1 = "La RDC est un pays dont le sol et sous-sol regorgent des richesses qualifiées sous plusieurs cieux de scandale géologique.Au lieu d'etre une benediction, ces richesses minieres ont même été par moment et par endroit qualifiées de maledction pour et parles populations qui devraient être bénéficiaires." 
-    const text2 = "C'est pour farie face à cette contradiction qu'un groupe d'intellectuels et cadres mutisectoriels (ingenieurs des Mines, Geologues, Metallurgistes, Professeurs d'universites, Managers,...)" 
-    const text3 = "conscients de leur responsabilité individuelle dans l'accomplissement du bien être collectif et fortement motivés par les multiples secteur minier decident de joindre leurs efforts et de se constituer en association afin de mener des actions concertées pour que le secteur minier procure le maximum, de possibilité de developpement dans notre pays en Général et au Sud-Kivu en particulier." 
+    const text1 = "La RDC est un pays dont le sol et sous-sol regorgent des richesses qualifiées sous plusieurs cieux de scandale géologique.Au lieu d'etre une benediction, ces richesses minieres ont même été par moment et par endroit qualifiées de maledction pour et parles populations qui devraient être bénéficiaires."
+    const text2 = "C'est pour farie face à cette contradiction qu'un groupe d'intellectuels et cadres mutisectoriels (ingenieurs des Mines, Geologues, Metallurgistes, Professeurs d'universites, Managers,...)"
+    const text3 = "conscients de leur responsabilité individuelle dans l'accomplissement du bien être collectif et fortement motivés par les multiples secteur minier decident de joindre leurs efforts et de se constituer en association afin de mener des actions concertées pour que le secteur minier procure le maximum, de possibilité de developpement dans notre pays en Général et au Sud-Kivu en particulier."
 
     const [index, setIndex] = useState(0)
     const images = [Image1, Image2, Image3]
-    const Textbg = [text1,text2,text3]
+    const Textbg = [text1, text2, text3]
 
     useEffect(() => {
         AOS.init({ duration: 2200 })
@@ -40,9 +40,11 @@ export default function Home() {
                     <div className="row">
                         <div className="col-md-6" >
                             <div className="detail_box ">
-                                <h1 >
+                                <h1>
                                     <span>Bienvenue chez</span>{" "}<br />
-                                    <ReactTyped strings={["B.E.E.M.P. "]} typeSpeed={70} loop />
+                                    <h5>
+                                        <ReactTyped strings={["Bureau D'etude et execution des projets miniers"]} typeSpeed={70} loop />
+                                    </h5>
                                 </h1>
                                 <p className="mt-4">
                                     {Textbg[index]}
@@ -62,7 +64,7 @@ export default function Home() {
             <div className="mt-5 abouthomediv" >
                 <AboutContent />
             </div>
-            
+
             <div className="mt-5">
                 <Contactcontent />
             </div>

@@ -3,10 +3,10 @@
 .navbar {
   /* background-color: #eae6f5 !important; */
   /* background-color: white 0% !important; */
-  background: url('')
+  /* background: url('')
   ,linear-gradient(rgba(2, 2, 2, 0.5),
    rgba(145, 145, 145, 0.7));
-  background-blend-mode: overlay;
+  background-blend-mode: overlay; */
   height: 70px;
   z-index: 9999;
   padding: 10px;
@@ -23,6 +23,7 @@
 .logo h4 {
   color: rgb(37, 37, 37);
   color: #ffffff;
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
   font-size: 25px;
   z-index: 1;
 }
@@ -32,6 +33,7 @@
 }
 
 .menu-icon {
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
   transform: translate(-12px) translateY(-10px);
 }
 

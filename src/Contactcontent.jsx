@@ -22,7 +22,7 @@ export default function Contactcontent() {
                                 <i className="bi bi-map"></i>
                                 <h3>Addresse</h3>
                                 <p>RDC / Sud - Kivu </p>
-                                <p>Bukavu</p>
+                                <p>Av du Plateau N°29</p>
                             </div>
                         </div>
 
