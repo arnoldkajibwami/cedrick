@@ -39,8 +39,8 @@ export default function Home() {
                 <div className="container" data-aos="zoom-in">
                     <div className="row">
                         <div className="col-md-6" >
-                            <div className="detail_box ">
-                                <h1>
+                            <div className="detail_box">
+                                <h1 className="">
                                     <span>Bienvenue chez</span>{" "}<br />
                                     <h5>
                                         <ReactTyped strings={["Bureau D'etude et execution des projets miniers"]} typeSpeed={70} loop />
