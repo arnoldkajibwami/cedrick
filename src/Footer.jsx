@@ -32,20 +32,20 @@ export default function Footer() {
                                             <p>Av du Plateau N°29</p>
                                         </span>
                                     </a>
-                                    <a href="contact">
+                                    <a href="tel:0973679401">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <span>
                                             Tél: +243 973 679 401
                                         </span>
                                     </a>
-                                    <a href="contact">
+                                    <a href="tel:0817022328">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <span>
                                             Tél: +243 817 022 328
                                         </span>
                                         <br />
                                     </a>
-                                    <a href="contact">
+                                    <a href="mailto:beepmasbl1@gmail.com">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
                                         <span style={{ textDecoration: "none", color: "skyblue" }}>
                                             beepmasbl1@gmail.com
