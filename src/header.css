@@ -23,7 +23,7 @@
 .logo h4 {
   color: rgb(37, 37, 37);
   color: #ffffff;
-  text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
   font-size: 25px;
   z-index: 1;
 }
@@ -33,14 +33,14 @@
 }
 
 .menu-icon {
-  text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
   transform: translate(-12px) translateY(-10px);
 }
 
 .menu-icon span {
   display: block;
-  background-color: #000000;
   background-color: #ffffff;
+  box-shadow: 4px 4px 10px rgba(134, 133, 133, 0.6);
   height: 3px;
   width: 25px;
   position: relative;
@@ -150,10 +150,6 @@
     z-index: 1;
   }
 
-  .menu-icon span {
-    background-color: rgb(255, 255, 255);
-  }
-
 }
 
 .menu-closed {
@@ -165,7 +161,6 @@
     display: block;
     z-index: 0;
   }
-
 
   .menu-closed {
     display: block;
