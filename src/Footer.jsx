@@ -66,8 +66,8 @@ export default function Footer() {
                                 <div class="footer_social">
                                     <i className='socialnetwork' style={{ marginLeft: "5px" }}> <Link to="https://www.instagram.com/beepmasbl/"><BiLogoInstagram /></Link> </i>
                                     <i className='socialnetwork'><Link to="https://www.facebook.com/profile.php?id=61554105458763"><BiLogoFacebook /></Link></i>
-                                    <i className='socialnetwork'><Link to="https://twitter.com/Entreprisebeepm"><BiLogoTwitter /></Link></i>
-                                    <i className='socialnetwork'><Link to="https://www.youtube.com/@cedrickcedrick9700"><BiLogoYoutube /></Link></i>
+                                    {/* <i className='socialnetwork'><Link to="https://twitter.com/Entreprisebeepm"><BiLogoTwitter /></Link></i> */}
+                                    <i className='socialnetwork'><Link to="https://www.youtube.com/@beepmorganisation"><BiLogoYoutube /></Link></i>
                                 </div>
                             </div>
                         </div>
@@ -96,12 +96,12 @@ export default function Footer() {
                             <a href="/home" style={{ marginLeft: "5px", color: "skyblue", textDecoration: "none" }}>B.E.E.P.M. </a>
                         </p>
                     </div>
-                    {/* <div class="footer-info">
+                    <div class="footer-info displayYearau">
                         <p>
                             <span id="displayYear"></span> Made By  
-                            <a href="https://auctux.com" style={{marginLeft:"5px"}}>Cedrick</a>
+                            <a href="https://auctux.com" style={{marginLeft:"5px"}}>Auctux</a>
                         </p>
-                    </div> */}
+                    </div>
                 </div>
             </footer >
         </>
