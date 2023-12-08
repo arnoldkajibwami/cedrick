@@ -23,7 +23,7 @@ export default function ServiceContainer() {
                 <div className="container">
                     <div className="heading_container d-flex" data-aos="fade-up">
                         <h2>
-                            Our Services
+                            Nos Services
                         </h2>
                     </div>
 
