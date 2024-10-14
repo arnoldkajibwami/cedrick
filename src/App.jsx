@@ -11,7 +11,7 @@ import Contact from "./Contact";
 function App() {
 
   return (
-    <Router>
+ /*   <Router>
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact/>} /> 
       </Routes> 
       <Footer/> 
-    </Router>
+    </Router>*/
   )
 }
 
