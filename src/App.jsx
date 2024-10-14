@@ -10,19 +10,20 @@ import Contact from "./Contact";
 
 function App() {
 
-  return (
- /*   <Router>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/home" element={<Home />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/gallery" element={<Gallery/>} />
-        <Route path="/contact" element={<Contact/>} /> 
-      </Routes> 
-      <Footer/> 
-    </Router>*/
+  funturn (
+ // <Router>
+     // <Header/>
+     // <Routes>
+      //  <Route path="/" element={<Home/>}/>
+      //  <Route path="/home" element={<Home />} />
+       // <Route path="/service" element={<Service />} />
+     //   <Route path="/about" element={<About/>} />
+       // <Route path="/gallery" element={<Gallery/>} />
+     //   <Route path="/contact" element={<Contact/>} /> 
+     // </Routes> 
+     // <Footer/> 
+   // </Router>
+    <>ERROR</>
   )
 }
 
